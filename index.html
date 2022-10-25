@@ -13,11 +13,10 @@
 		{
 			text-transform: uppercase;
 		}
-		li
+		ul
 		{
-			overflow: hidden;
-			padding: 20px 0;
-			border-bottom: 1px solid #eee;
+			margin 0;
+			padding: 0;
 		}
 		ul li
 		{
@@ -27,6 +26,10 @@
 			background: #eee;
 			font-size: 18px;
 			transition: 0.2s;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
 		}
 		ul li: nth-child(odd)
 		{
